@@ -1,0 +1,71 @@
+/* 
+Class Styling -- named whatever and referenced in the element itself -- named with a period:  
+.shadow-text {}
+<p class="shadow-text"></p>
+*/
+.margin-left-40 {
+    margin-left: 40px;
+}
+
+
+/*
+ID Styling -- uses the id name to apply the style -- named with a # and the name of the id itself: 
+#large-paragraph {}
+<p id="large-paragraph"></p>
+*/
+
+#secondary-title {
+    text-align: center;
+    font-size: 20pt;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*
+Element Styling -- uses the element type itself to apply the style -- named merely with the element type:
+h1 {}
+<h1></h1>
+*/
+
+body {
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25pt;
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table tr td {
+    vertical-align: top;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+ul li a:hover, ul li a:focus {
+    color: red;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+pre {
+    font-family:'Courier New', Courier, monospace;
+}
+input {
+    font-size:medium;
+}
+
+textarea {
+    font-size:medium;
+}
+
+/* catch-all to make sure everything has a style of some form -- just to make sure */
+*{box-sizing:border-box;}

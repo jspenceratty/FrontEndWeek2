@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact James</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>The Great and Mighty James</h1>
+    <h2 id="secondary-title">How to contact James</h2>
+    <table>
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="index.html">Main Screen</a></li>
+                    <li><a href="aboutus.html">About James</a></li>
+                    <li><a href="contactus.html">Contact James</a></li>
+                </ul>
+            </td>
+            <td>
+                <div class="margin-left-40">
+                    So, you want to contact James, do you?  Well, that's a tough one.  He is 
+                    pretty reclusive.  But, I suppose, since you went to all the trouble to 
+                    find this website, that it might be good for you to get an even greater 
+                    benefit from it, so here you go.  Use the following form to contact him
+                    --you lucky devil.<br>
+                    <br>
+                    [Go on and press the submit button and see what happens!!]
+                    <br>
+                    <br>
+                    <form>
+                        <input type="text" name="yourName" placeholder="Your Full Name"><br><br>
+                        <textarea rows="5" cols="60" name="yourMessage" placeholder="Your Message"></textarea><br>
+                        <br>
+                        <input name="submitButton" type="submit" onclick="buttonClick();" value="Send your message">
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script>
+        function buttonClick() {
+            alert("Thanks for your message.  We will respond shortly.");
+        }
+    </script>
+</body>
+</html>
